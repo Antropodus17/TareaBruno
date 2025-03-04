@@ -16,6 +16,9 @@ services:
       - ./configs/:/etc/apache2/sites-enabled/
       - ./certs:/certs
 
+  nginx:
+    build: nginx
+
   basededatos:
     image: mariadb
     volumes:

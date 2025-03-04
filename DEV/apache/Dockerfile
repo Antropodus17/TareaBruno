@@ -12,16 +12,16 @@ RUN apt install -y apache2
 
 ##INSTALAR TODAS LAS EXTENSIONES NECESARIAS:
 RUN apt install -y php8.1-curl \
-php8.1-dom \
-php8.1-fileinfo \
-php8.1-gd \
-php8.1-iconv \
-php8.1-intl \
-php8.1-mbstring \
-php8.1-pdo \
-php8.1-mysql \
-php8.1-simplexml \
-php8.1-zip
+    php8.1-dom \
+    php8.1-fileinfo \
+    php8.1-gd \
+    php8.1-iconv \
+    php8.1-intl \
+    php8.1-mbstring \
+    php8.1-pdo \
+    php8.1-mysql \
+    php8.1-simplexml \
+    php8.1-zip
 
 # Habilitar módulos de Apache necesarios
 RUN a2enmod rewrite headers ssl
