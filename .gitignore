@@ -1,5 +1,6 @@
 .env
 .txt
+certs/
 
 # Cache, temp and personal files
 /.htaccess

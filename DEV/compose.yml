@@ -20,6 +20,7 @@ services:
     image: mariadb
     volumes:
       - datos:/var/lib/mysql
+      - ./scripts/:/scripts
     env_file:
       - mariadb.env
     secrets:
